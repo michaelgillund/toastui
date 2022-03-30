@@ -1,6 +1,6 @@
 //
 //  Toast.swift
-//  ToastNotification
+//  Toast
 //
 //  Created by Michael Gillund on 3/30/22.
 //

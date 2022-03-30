@@ -59,8 +59,8 @@
 			children = (
 				E5FE5EE427F427F400A48788 /* ToastApp.swift */,
 				E5FE5EE527F427F400A48788 /* ContentView.swift */,
-				E5FE5EE627F427F600A48788 /* Assets.xcassets */,
 				E5FE5F0227F4296E00A48788 /* Toast.swift */,
+				E5FE5EE627F427F600A48788 /* Assets.xcassets */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
