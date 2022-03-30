@@ -17,7 +17,7 @@ struct ContentView: View {
                 Rectangle()
                     .foregroundColor(.clear)
                     .edgesIgnoringSafeArea(.all)
-                Toast(image: "headphones", title: "AirPods max", subtitle: "Connected")
+                Toast(image: "headphones", title: "AirPods Max", subtitle: "Connected")
                     .offset(y: isVisible ? 0 : -150)
                     .animation(
                         Animation.spring()
@@ -29,6 +29,9 @@ struct ContentView: View {
             .padding()
             .onAppear(perform: {
                 self.isVisible.toggle()
+                DispatchQueue.main.asyncAfter(deadline: .now() + 1.25) {
+                    self.isVisible.toggle()
+                }
             })
             Toggle("", isOn: $isVisible)
                 .labelsHidden()
