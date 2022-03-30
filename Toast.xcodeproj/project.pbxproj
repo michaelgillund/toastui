@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5FE5EF427F427F600A48788 /* ToastNotificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE5EE427F427F400A48788 /* ToastNotificationApp.swift */; };
-		E5FE5EF527F427F600A48788 /* ToastNotificationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE5EE427F427F400A48788 /* ToastNotificationApp.swift */; };
+		E5FE5EF427F427F600A48788 /* ToastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE5EE427F427F400A48788 /* ToastApp.swift */; };
+		E5FE5EF527F427F600A48788 /* ToastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE5EE427F427F400A48788 /* ToastApp.swift */; };
 		E5FE5EF627F427F600A48788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE5EE527F427F400A48788 /* ContentView.swift */; };
 		E5FE5EF727F427F600A48788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE5EE527F427F400A48788 /* ContentView.swift */; };
 		E5FE5EF827F427F600A48788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5FE5EE627F427F600A48788 /* Assets.xcassets */; };
@@ -18,11 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E5FE5EE427F427F400A48788 /* ToastNotificationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastNotificationApp.swift; sourceTree = "<group>"; };
+		E5FE5EE427F427F400A48788 /* ToastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastApp.swift; sourceTree = "<group>"; };
 		E5FE5EE527F427F400A48788 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E5FE5EE627F427F600A48788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E5FE5EEB27F427F600A48788 /* ToastNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5FE5EF127F427F600A48788 /* ToastNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FE5EEB27F427F600A48788 /* Toast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FE5EF127F427F600A48788 /* Toast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FE5EF327F427F600A48788 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		E5FE5F0227F4296E00A48788 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +57,7 @@
 		E5FE5EE327F427F400A48788 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				E5FE5EE427F427F400A48788 /* ToastNotificationApp.swift */,
+				E5FE5EE427F427F400A48788 /* ToastApp.swift */,
 				E5FE5EE527F427F400A48788 /* ContentView.swift */,
 				E5FE5EE627F427F600A48788 /* Assets.xcassets */,
 				E5FE5F0227F4296E00A48788 /* Toast.swift */,
@@ -68,8 +68,8 @@
 		E5FE5EEC27F427F600A48788 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5FE5EEB27F427F600A48788 /* ToastNotification.app */,
-				E5FE5EF127F427F600A48788 /* ToastNotification.app */,
+				E5FE5EEB27F427F600A48788 /* Toast.app */,
+				E5FE5EF127F427F600A48788 /* Toast.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5FE5EEA27F427F600A48788 /* ToastNotification (iOS) */ = {
+		E5FE5EEA27F427F600A48788 /* Toast (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5FE5EFC27F427F600A48788 /* Build configuration list for PBXNativeTarget "ToastNotification (iOS)" */;
+			buildConfigurationList = E5FE5EFC27F427F600A48788 /* Build configuration list for PBXNativeTarget "Toast (iOS)" */;
 			buildPhases = (
 				E5FE5EE727F427F600A48788 /* Sources */,
 				E5FE5EE827F427F600A48788 /* Frameworks */,
@@ -97,14 +97,14 @@
 			);
 			dependencies = (
 			);
-			name = "ToastNotification (iOS)";
+			name = "Toast (iOS)";
 			productName = "ToastNotification (iOS)";
-			productReference = E5FE5EEB27F427F600A48788 /* ToastNotification.app */;
+			productReference = E5FE5EEB27F427F600A48788 /* Toast.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E5FE5EF027F427F600A48788 /* ToastNotification (macOS) */ = {
+		E5FE5EF027F427F600A48788 /* Toast (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5FE5EFF27F427F600A48788 /* Build configuration list for PBXNativeTarget "ToastNotification (macOS)" */;
+			buildConfigurationList = E5FE5EFF27F427F600A48788 /* Build configuration list for PBXNativeTarget "Toast (macOS)" */;
 			buildPhases = (
 				E5FE5EED27F427F600A48788 /* Sources */,
 				E5FE5EEE27F427F600A48788 /* Frameworks */,
@@ -114,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = "ToastNotification (macOS)";
+			name = "Toast (macOS)";
 			productName = "ToastNotification (macOS)";
-			productReference = E5FE5EF127F427F600A48788 /* ToastNotification.app */;
+			productReference = E5FE5EF127F427F600A48788 /* Toast.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -137,7 +137,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E5FE5EE227F427F400A48788 /* Build configuration list for PBXProject "ToastNotification" */;
+			buildConfigurationList = E5FE5EE227F427F400A48788 /* Build configuration list for PBXProject "Toast" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -150,8 +150,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5FE5EEA27F427F600A48788 /* ToastNotification (iOS) */,
-				E5FE5EF027F427F600A48788 /* ToastNotification (macOS) */,
+				E5FE5EEA27F427F600A48788 /* Toast (iOS) */,
+				E5FE5EF027F427F600A48788 /* Toast (macOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -182,7 +182,7 @@
 			files = (
 				E5FE5EF627F427F600A48788 /* ContentView.swift in Sources */,
 				E5FE5F0327F4296F00A48788 /* Toast.swift in Sources */,
-				E5FE5EF427F427F600A48788 /* ToastNotificationApp.swift in Sources */,
+				E5FE5EF427F427F600A48788 /* ToastApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,7 +192,7 @@
 			files = (
 				E5FE5EF727F427F600A48788 /* ContentView.swift in Sources */,
 				E5FE5F0427F4296F00A48788 /* Toast.swift in Sources */,
-				E5FE5EF527F427F600A48788 /* ToastNotificationApp.swift in Sources */,
+				E5FE5EF527F427F600A48788 /* ToastApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +331,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelGillund.ToastNotification;
-				PRODUCT_NAME = ToastNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelGillund.Toast;
+				PRODUCT_NAME = Toast;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -361,8 +361,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelGillund.ToastNotification;
-				PRODUCT_NAME = ToastNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelGillund.Toast;
+				PRODUCT_NAME = Toast;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -391,8 +391,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelGillund.ToastNotification;
-				PRODUCT_NAME = ToastNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelGillund.Toast;
+				PRODUCT_NAME = Toast;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -419,8 +419,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelGillund.ToastNotification;
-				PRODUCT_NAME = ToastNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MichaelGillund.Toast;
+				PRODUCT_NAME = Toast;
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -430,7 +430,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5FE5EE227F427F400A48788 /* Build configuration list for PBXProject "ToastNotification" */ = {
+		E5FE5EE227F427F400A48788 /* Build configuration list for PBXProject "Toast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5FE5EFA27F427F600A48788 /* Debug */,
@@ -439,7 +439,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5FE5EFC27F427F600A48788 /* Build configuration list for PBXNativeTarget "ToastNotification (iOS)" */ = {
+		E5FE5EFC27F427F600A48788 /* Build configuration list for PBXNativeTarget "Toast (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5FE5EFD27F427F600A48788 /* Debug */,
@@ -448,7 +448,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5FE5EFF27F427F600A48788 /* Build configuration list for PBXNativeTarget "ToastNotification (macOS)" */ = {
+		E5FE5EFF27F427F600A48788 /* Build configuration list for PBXNativeTarget "Toast (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E5FE5F0027F427F600A48788 /* Debug */,
