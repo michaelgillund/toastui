@@ -8,9 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isVisible = false
+    
     var body: some View {
-        Text("Hello, world!")
+        ZStack {
+            ZStack(alignment: .top) {
+                Rectangle()
+                    .foregroundColor(.clear)
+                    .edgesIgnoringSafeArea(.all)
+                Toast(image: "headphones", title: "AirPods max", subtitle: "Connected")
+                    .offset(y: isVisible ? 0 : -150)
+                    .animation(
+                        Animation.spring()
+                    )
+                    .onTapGesture(perform: {
+                        self.isVisible.toggle()
+                    })
+            }
             .padding()
+            .onAppear(perform: {
+                self.isVisible.toggle()
+            })
+            Toggle("", isOn: $isVisible)
+                .labelsHidden()
+        }
     }
 }
 

@@ -13,6 +13,8 @@
 		E5FE5EF727F427F600A48788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE5EE527F427F400A48788 /* ContentView.swift */; };
 		E5FE5EF827F427F600A48788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5FE5EE627F427F600A48788 /* Assets.xcassets */; };
 		E5FE5EF927F427F600A48788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5FE5EE627F427F600A48788 /* Assets.xcassets */; };
+		E5FE5F0327F4296F00A48788 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE5F0227F4296E00A48788 /* Toast.swift */; };
+		E5FE5F0427F4296F00A48788 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5FE5F0227F4296E00A48788 /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		E5FE5EEB27F427F600A48788 /* ToastNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FE5EF127F427F600A48788 /* ToastNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5FE5EF327F427F600A48788 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		E5FE5F0227F4296E00A48788 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 				E5FE5EE427F427F400A48788 /* ToastNotificationApp.swift */,
 				E5FE5EE527F427F400A48788 /* ContentView.swift */,
 				E5FE5EE627F427F600A48788 /* Assets.xcassets */,
+				E5FE5F0227F4296E00A48788 /* Toast.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -177,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5FE5EF627F427F600A48788 /* ContentView.swift in Sources */,
+				E5FE5F0327F4296F00A48788 /* Toast.swift in Sources */,
 				E5FE5EF427F427F600A48788 /* ToastNotificationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5FE5EF727F427F600A48788 /* ContentView.swift in Sources */,
+				E5FE5F0427F4296F00A48788 /* Toast.swift in Sources */,
 				E5FE5EF527F427F600A48788 /* ToastNotificationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
